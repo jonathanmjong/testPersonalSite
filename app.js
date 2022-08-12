@@ -9,7 +9,8 @@ app.get("/", (req, res) => {
 });
 
 app.listen(process.env.PORT || 3000, () => {
-    console.log("listening on working directory: " + process.env.PWD);
-    console.log("dirname is: " + __dirname);
+    console.log("JJ: listening on working directory: " + process.env.PWD);
+    console.log("JJ: dirname is: " + __dirname);
+    console.log("JJ: path is: ");
     console.log(path);
 });
